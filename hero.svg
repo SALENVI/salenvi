@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+<defs>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1abc9c"/>
+    <stop offset="100%" stop-color="#7f8c8d"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="600" fill="url(#g1)"/>
+<circle cx="950" cy="140" r="110" fill="#ffffff22"/>
+<circle cx="250" cy="480" r="160" fill="#00000022"/>
+<g fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round">
+  <path d="M220 320 Q300 220 380 320 T540 320" />
+  <path d="M430 250 L430 420" />
+  <circle cx="430" cy="210" r="22" fill="#ffffff"/>
+</g>
+<text x="80" y="120" fill="#ffffff" font-family="Poppins, Arial" font-size="64" font-weight="700">SALENVI</text>
+<text x="80" y="180" fill="#ffffff" font-family="Poppins, Arial" font-size="28">Tu guía práctica para vivir mejor</text>
+</svg>

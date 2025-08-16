@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" rx="24" fill="#7f8c8d22"/>
+<circle cx="320" cy="70" r="38" fill="#16a08533"/>
+<circle cx="80" cy="230" r="60" fill="#16a08522"/>
+<g fill="none" stroke="#16a085" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M60 170 L120 170 L150 110 L190 230 L220 170 L340 170"/>
+</g>
+<text x="24" y="260" fill="#0b0f14" font-family="Poppins, Arial" font-size="20">Gastroenteritis</text>
+</svg>

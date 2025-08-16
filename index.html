@@ -1,29 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SALENVI - Blog</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script defer src="js/main.js"></script>
-  <link rel="icon" href="img/favicon-salenvi.svg" type="image/svg+xml">
+<head><title>SALENVI — Inicio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<meta name="description" content="SALENVI — Salud, vitalidad y bienestar. Tu guía práctica para vivir mejor.">
+<meta property="og:title" content="SALENVI">
+<meta property="og:description" content="Artículos, guías y recursos de salud y bienestar.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/hero.svg">
 </head>
 <body>
-  <header>
-    <img src="img/logo-salenvi-white.svg" alt="SALENVI Logo">
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="blog/index.html">Blog</a>
-      <a href="recursos/index.html">Recursos</a>
-      <a href="contacto.html">Contacto</a>
-      <button class="toggle-mode">🌓</button>
-    </nav>
-  </header>
-  <div class="container">
-    <h1>Blog de Salud</h1><ul><li><a href='0.html'>Prevención de hipertensión arterial crónica</a></li><li><a href='1.html'>Actualización en manejo de la diabetes</a></li><li><a href='2.html'>Manejo nutricional de peso: ¿Usamos el IMC?</a></li><li><a href='3.html'>Enfermedades laborales</a></li><li><a href='4.html'>Levantamiento de carga manual en el trabajo y el hogar</a></li><li><a href='5.html'>Dengue</a></li><li><a href='6.html'>Infección de vías urinarias</a></li><li><a href='7.html'>Influenza</a></li><li><a href='8.html'>Gastroenteritis</a></li><li><a href='9.html'>Cefaleas</a></li></ul>
+  
+<header>
+  <div class="brand">
+    <img src="img/favicon.svg" alt="SALENVI">
+    <strong>SALENVI</strong>
   </div>
-  <footer>
-    &copy; 2025 SALENVI - Todos los derechos reservados
-  </footer>
-</body>
-</html>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="blog.html">Blog</a>
+    <a href="acerca.html">Acerca</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+  <section class="hero">
+    <div class="copy reveal">
+      <h1>Tu guía práctica para vivir mejor</h1>
+      <p>Información clara, moderna y confiable sobre salud, vitalidad y bienestar. Aprende a prevenir, detectar y cuidar tu salud con contenido útil.</p>
+      <p><a class="button" href="blog.html">Explorar Blog</a> <a class="button secondary" href="contacto.html">Contacto</a></p>
+    </div>
+    <div class="art reveal"><img src="img/hero.svg" alt="Salud y bienestar" style="width:100%;display:block;"></div>
+  </section>
+  <section class="section reveal">
+    <h2>Temas destacados</h2>
+    <p class="lead">Comienza por lo más consultado: hipertensión, diabetes, nutrición, ergonomía y más.</p>
+    <div class="grid">
+      <a class="card" href="blog.html#hipertension">
+        <img src="img/hipertension.svg" alt="Hipertensión"><h3>Prevención de hipertensión</h3>
+        <p>Medidas prácticas, señales de alerta y metas de presión arterial.</p><span class="button">Leer más</span>
+      </a>
+      <a class="card" href="blog.html#diabetes">
+        <img src="img/diabetes.svg" alt="Diabetes"><h3>Diabetes: manejo actualizado</h3>
+        <p>ABC del control glucémico, A1c y plan de alimentación.</p><span class="button">Leer más</span>
+      </a>
+      <a class="card" href="blog.html#imc">
+        <img src="img/imc.svg" alt="IMC"><h3>Control del peso (IMC)</h3>
+        <p>Cómo interpretar el IMC y por qué no lo es todo.</p><span class="button">Leer más</span>
+      </a>
+    </div>
+  </section>
+  
+<div class="footer">
+  <div>© <span id="year"></span> SALENVI · Tu guía práctica para vivir mejor</div>
+</div>
+<script src="js/main.js" defer></script>
+
+</body></html>
