@@ -1,22 +1,31 @@
 <!doctype html>
 <html lang="es">
-<head><title>SALENVI — Inicio</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/style.css">
-<meta name="description" content="SALENVI — Salud, vitalidad y bienestar. Tu guía práctica para vivir mejor.">
-<meta property="og:title" content="SALENVI">
-<meta property="og:description" content="Artículos, guías y recursos de salud y bienestar.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="Salenvilogo.png">
+<head>
+  <title>SALENVI — Inicio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Meta descripción -->
+  <meta name="description" content="SALENVI — Salud, vitalidad y bienestar. Tu guía práctica para vivir mejor.">
+
+  <!-- Open Graph para compartir -->
+  <meta property="og:title" content="SALENVI">
+  <meta property="og:description" content="Artículos, guías y recursos de salud y bienestar.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="Salenvilogo.png">
 </head>
 <body>
   
 <header>
   <div class="brand">
-    <img src="Salenvilogo.png" alt="SALENVI Logo">
-
+    <!-- Logo actualizado -->
+    <img src="Salenvilogo.png" alt="SALENVI Logo" class="logo">
     <strong>SALENVI</strong>
   </div>
   <nav>
@@ -27,36 +36,34 @@
   </nav>
 </header>
 
-  <section class="hero">
-    <div class="copy reveal">
-      <h1>Tu guía práctica para vivir mejor</h1>
-      <p>Información clara, moderna y confiable sobre salud, vitalidad y bienestar. Aprende a prevenir, detectar y cuidar tu salud con contenido útil.</p>
-      <p><a class="button" href="blog.html">Explorar Blog</a> <a class="button secondary" href="contacto.html">Contacto</a></p>
-    </div>
-    <div class="art reveal"><img src="hero.svg" alt="Salud y bienestar" style="width:100%;display:block;"></div>
-  </section>
+<main>
   <section class="section reveal">
-    <h2>Temas destacados</h2>
-    <p class="lead">Comienza por lo más consultado: hipertensión, diabetes, nutrición, ergonomía y más.</p>
+    <h2>Bienvenido a SALENVI</h2>
+    <p class="lead">Tu guía práctica para la salud, la vitalidad y el bienestar. Encuentra información confiable y sencilla para mejorar tu calidad de vida.</p>
+    
     <div class="grid">
-      <a class="card" href="blog.html#hipertension">
-        <img src="hipertension.svg" alt="Hipertensión"><h3>Prevención de hipertensión</h3>
-        <p>Medidas prácticas, señales de alerta y metas de presión arterial.</p><span class="button">Leer más</span>
-      </a>
-      <a class="card" href="blog.html#diabetes">
-        <img src="diabetes.svg" alt="Diabetes"><h3>Diabetes: manejo actualizado</h3>
-        <p>ABC del control glucémico, A1c y plan de alimentación.</p><span class="button">Leer más</span>
-      </a>
-      <a class="card" href="blog.html#imc">
-        <img src="imc.svg" alt="IMC"><h3>Control del peso (IMC)</h3>
-        <p>Cómo interpretar el IMC y por qué no lo es todo.</p><span class="button">Leer más</span>
-      </a>
+      <div class="card">
+        <h3>Salud</h3>
+        <p>Artículos y recursos para mantener un estilo de vida saludable.</p>
+      </div>
+      <div class="card">
+        <h3>Vitalidad</h3>
+        <p>Consejos prácticos para mejorar tu energía y rendimiento diario.</p>
+      </div>
+      <div class="card">
+        <h3>Bienestar</h3>
+        <p>Guías sobre nutrición, ejercicio, descanso y manejo del estrés.</p>
+      </div>
     </div>
   </section>
+</main>
   
-<div class="footer">
+<footer class="footer">
   <div>© <span id="year"></span> SALENVI · Tu guía práctica para vivir mejor</div>
-</div>
+</footer>
+
+<!-- Script principal -->
 <script src="js/main.js" defer></script>
 
-</body></html>
+</body>
+</html>
