@@ -1,20 +1,17 @@
 <!doctype html>
-<html lang="es"><head><title>SALENVI — Contacto</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/style.css">
-<meta name="description" content="SALENVI — Salud, vitalidad y bienestar. Tu guía práctica para vivir mejor.">
-<meta property="og:title" content="SALENVI">
-<meta property="og:description" content="Artículos, guías y recursos de salud y bienestar.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="img/hero.svg">
+<html lang="es">
+<head>
+  <title>SALENVI — Contacto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Ponte en contacto con SALENVI.">
 </head>
 <body>
-  
 <header>
   <div class="brand">
-    <img src="img/favicon.svg" alt="SALENVI">
+    <img src="Salenvilogo.png" alt="SALENVI Logo" class="logo">
     <strong>SALENVI</strong>
   </div>
   <nav>
@@ -25,23 +22,29 @@
   </nav>
 </header>
 
-  <section class="section contact reveal">
+<main>
+  <section class="section reveal">
     <h2>Contacto</h2>
-    <p class="lead">¿Tienes dudas, sugerencias o quieres colaborar? Escríbenos.</p>
-    <!-- Reemplaza TU_ENDPOINT por el que te da Formspree (ej: f/abcdxyz) -->
-    <form action="https://formspree.io/f/TU_ENDPOINT" method="POST">
-      <input type="text" name="nombre" placeholder="Tu nombre" required>
-      <input type="email" name="email" placeholder="Tu correo" required>
-      <textarea name="mensaje" rows="6" placeholder="Cuéntanos en qué te podemos ayudar" required></textarea>
-      <input type="hidden" name="_subject" value="Nuevo mensaje desde SALENVI">
-      <button type="submit">Enviar mensaje</button>
-      <p style="font-size:14px;color:#7f8c8d">Si el botón no funciona, escríbenos a: <a href="mailto:kamparr1993@gmail.com">kamparr1993@gmail.com</a></p>
+    <p class="lead">Si deseas comunicarte con nosotros, utiliza el siguiente formulario o escríbenos directamente.</p>
+    
+    <form>
+      <label>Nombre:</label><br>
+      <input type="text" name="nombre"><br><br>
+      
+      <label>Email:</label><br>
+      <input type="email" name="email"><br><br>
+      
+      <label>Mensaje:</label><br>
+      <textarea name="mensaje"></textarea><br><br>
+      
+      <button type="submit">Enviar</button>
     </form>
   </section>
-  
-<div class="footer">
-  <div>© <span id="year"></span> SALENVI · Tu guía práctica para vivir mejor</div>
-</div>
-<script src="js/main.js" defer></script>
+</main>
 
-</body></html>
+<footer class="footer">
+  <div>© <span id="year"></span> SALENVI · Tu guía práctica para vivir mejor</div>
+</footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>
