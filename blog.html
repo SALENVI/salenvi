@@ -1,143 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog - SALENVI</title>
+  <title>SALENVI — Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header.navbar {
-      background: #0dbab1;
-      padding: 15px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      color: #fff;
-    }
-    header.navbar .logo {
-      font-weight: bold;
-      font-size: 20px;
-    }
-    header.navbar ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
-    header.navbar ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .blog-hero {
-      background: linear-gradient(to right, #0dbab1, #333);
-      color: white;
-      text-align: center;
-      padding: 50px 20px;
-    }
-    .blog-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-      padding: 40px 20px;
-    }
-    .blog-card {
-      background: #fff;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-    }
-    .blog-card:hover {
-      transform: translateY(-5px);
-    }
-    .blog-card h3 {
-      color: #0dbab1;
-    }
-    .blog-card a {
-      text-decoration: none;
-      font-weight: bold;
-      color: #333;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #333;
-      color: #fff;
-      margin-top: 30px;
-    }
-  </style>
+  <meta name="description" content="Blog de SALENVI con artículos de salud, vitalidad y bienestar.">
 </head>
 <body>
+<header>
+  <div class="brand">
+    <img src="Salenvilogo.png" alt="SALENVI Logo" class="logo">
+    <strong>SALENVI</strong>
+  </div>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="blog.html">Blog</a>
+    <a href="acerca.html">Acerca</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
 
-  <header class="navbar">
-    <div class="logo">🌿 SALENVI</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="acerca.html">Acerca</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="blog-hero">
-    <h1>Blog de Salud y Bienestar</h1>
-    <p>Artículos prácticos para cuidarte mejor con SALENVI</p>
+<main>
+  <section class="section reveal">
+    <h2>Blog de SALENVI</h2>
+    <p class="lead">Explora nuestros artículos más recientes sobre salud, vitalidad y bienestar.</p>
+    <ul>
+      <li><a href="dengue.html">Información sobre el Dengue</a></li>
+      <li><a href="cefaleas.html">Guía práctica sobre Cefaleas</a></li>
+    </ul>
   </section>
+</main>
 
-  <main class="blog-grid">
-    <div class="blog-card">
-      <h3>Prevención de hipertensión arterial crónica</h3>
-      <a href="hipertension.html">Leer más →</a>
-    </div>
-    <div class="blog-card">
-      <h3>Actualización en manejo de la diabetes</h3>
-      <a href="diabetes.html">Leer más →</a>
-    </div>
-    <div class="blog-card">
-      <h3>Manejo nutricional de peso</h3>
-      <a href="nutricion.html">Leer más →</a>
-    </div>
-    <div class="blog-card">
-      <h3>Enfermedades laborales</h3>
-      <a href="enfermedades-laborales.html">Leer más →</a>
-    </div>
-    <div class="blog-card">
-      <h3>Levantamiento de carga manual</h3>
-      <a href="carga-manual.html">Leer más →</a>
-    </div>
-    <div class="blog-card">
-      <h3>Dengue</h3>
-      <a href="dengue.html">Leer más →</a>
-    </div>
-    <div class="blog-card">
-      <h3>Infección de vías urinarias</h3>
-      <a href="itu.html">Leer más →</a>
-    </div>
-    <div class="blog-card">
-      <h3>Influenza</h3>
-      <a href="influenza.html">Leer más →</a>
-    </div>
-    <div class="blog-card">
-      <h3>Gastroenteritis</h3>
-      <a href="gastroenteritis.html">Leer más →</a>
-    </div>
-    <div class="blog-card">
-      <h3>Cefaleas</h3>
-      <a href="cefaleas.html">Leer más →</a>
-    </div>
-  </main>
-
-  <footer>
-    <p>© 2025 SALENVI · Salud, Vitalidad y Bienestar</p>
-  </footer>
-
+<footer class="footer">
+  <div>© <span id="year"></span> SALENVI · Tu guía práctica para vivir mejor</div>
+</footer>
+<script src="js/main.js" defer></script>
 </body>
 </html>
